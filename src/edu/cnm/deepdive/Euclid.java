@@ -21,11 +21,7 @@ public class Euclid {
         b %= a;
       }
     }
-    if (a != 0) {
-      return a;
-    } else {
-      return b;
-    }
+    return (a != 0) ? a : b;
   }
 
 
